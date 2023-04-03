@@ -515,8 +515,6 @@ do
         RemoveDrawing(MiddleIcon)
         RemoveDrawing( LOVE_LOVIN111111111111111111111Image)
         
-         LOVE_LOVIN11.UserInputService.MouseIconEnabled = false
-        
         return  LOVE_LOVIN111111111111111111111
     end
 end
