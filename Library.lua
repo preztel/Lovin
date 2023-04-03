@@ -599,7 +599,7 @@ end
 
 
 
-function  LOVE_LOVIN1111:CreateWindow(Size)
+function  LOVE_LOVIN1111.Window(Size)
     local  LOVE_LOVIN111111111111111111111 = {
         Notification = 0,
         Tabs = {},
