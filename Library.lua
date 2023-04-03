@@ -688,7 +688,7 @@ function  LOVE_LOVIN1111:Window(Size)
         end)
     end
 
-    local  LOVE_LOVIN111111111111111111111Outline = AddDrawing("Square", {
+    local  aLOVE_LOVIN111111111111111111111Outline = AddDrawing("Square", {
         Size = Size,
         Thickness = 0,
         Color =  LOVE_LOVIN1111.Theme.Outline,
@@ -696,11 +696,11 @@ function  LOVE_LOVIN1111:Window(Size)
         Filled = true
     })
     
-     LOVE_LOVIN111111111111111111111Outline.Position = MiddlePos( LOVE_LOVIN111111111111111111111Outline)
+    aLOVE_LOVIN111111111111111111111Outline.Position = MiddlePos( aLOVE_LOVIN111111111111111111111Outline)
     
     local  LOVE_LOVIN111111111111111111111OutlineBorder = AddDrawing("Square", {
-        Size = Vector2.new( LOVE_LOVIN111111111111111111111Outline.Size.X - 2,  LOVE_LOVIN111111111111111111111Outline.Size.Y - 2),
-        Position = Vector2.new( LOVE_LOVIN111111111111111111111Outline.Position.X + 1,  LOVE_LOVIN111111111111111111111Outline.Position.Y + 1),
+        Size = Vector2.new( aLOVE_LOVIN111111111111111111111Outline.Size.X - 2,  aLOVE_LOVIN111111111111111111111Outline.Size.Y - 2),
+        Position = Vector2.new( aLOVE_LOVIN111111111111111111111Outline.Position.X + 1,  aLOVE_LOVIN111111111111111111111Outline.Position.Y + 1),
         Thickness = 0,
         Color =  LOVE_LOVIN1111.Theme.Accent[1],
         Visible = true,
