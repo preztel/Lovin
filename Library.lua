@@ -599,7 +599,7 @@ end
 
 
 
-function  LOVE_LOVIN1111:Window(Size)
+function  LOVE_LOVIN1111:Window(WindowSize)
     local  LOVE_LOVIN111111111111111111111 = {
         Notification = 0,
         Tabs = {},
@@ -689,7 +689,7 @@ function  LOVE_LOVIN1111:Window(Size)
     end
 
     local  aLOVE_LOVIN111111111111111111111Outline = AddDrawing("Square", {
-        Size = Size,
+        Size = WindowSize,
         Thickness = 0,
         Color =  LOVE_LOVIN1111.Theme.Outline,
         Visible = true,
