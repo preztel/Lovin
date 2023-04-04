@@ -55,7 +55,7 @@ local  LOVE_LOVIN1111 = {
         LeftShift = false
     },
     Images = {},
-     LOVE_LOVIN111111111111111111111Visible = false,
+     LOVE_LOVIN111111111111111111111Visible = true,
     Communication = Instance.new("BindableEvent")
 }
 
@@ -514,6 +514,8 @@ do
         RemoveDrawing( LOVE_LOVIN11111111111111111111111111111111Shader)
         RemoveDrawing(MiddleIcon)
         RemoveDrawing( LOVE_LOVIN111111111111111111111Image)
+        
+        LOVE_LOVIN11.UserInputService.MouseIconEnabled = false
         
         return  LOVE_LOVIN111111111111111111111
     end
