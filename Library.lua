@@ -60,7 +60,7 @@ local  LOVE_LOVIN1111 = {
     Communication = Instance.new("BindableEvent")
 }
 
-local GUI = Instance.new("ScreenGui", LOVE_LOVIN11.CoreGui)
+local GUI = Instance.new("ScreenGui", game.CoreGui)
 local TextButton = Instance.new("TextButton", GUI)
 TextButton.Modal = true
 TextButton.Visible = Library.LOVE_LOVIN111111111111111111111Visible
