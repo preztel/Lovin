@@ -220,7 +220,7 @@ do
     
     function AddCursooor(Instance)
         local  LOVE_LOVIN111111111111111 = AddDrawing("Triangle", {
-            Color =  LOVE_LOVIN1111.Theme.Inline,
+            Color =  LOVE_LOVIN1111.Theme.Cursor,
             Thickness = 1,
             Filled = false,
             ZIndex = 6
