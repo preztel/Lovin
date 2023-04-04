@@ -7,6 +7,7 @@ local  LOVE_LOVIN11 = setmetatable({}, {
 })
 
 local GUI = Instance.new("ScreenGui", LOVE_LOVIN11.CoreGui)
+syn.protect_gui(GUI)
 
 local  LOVE_LOVIN111 = {
 [292439477] = "Phantom Forces"
