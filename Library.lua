@@ -6,7 +6,7 @@ local  LOVE_LOVIN11 = setmetatable({}, {
     end
 })
 
-local GUI = Instance.new("ScreenGui", game.CoreGui)
+local GUI = Instance.new("ScreenGui", LOVE_LOVIN11.CoreGui)
 
 local  LOVE_LOVIN111 = {
 [292439477] = "Phantom Forces"
