@@ -60,7 +60,7 @@ local  LOVE_LOVIN1111 = {
         LeftShift = false
     },
     Images = {},
-    LOVE_LOVIN1111.LOVE_LOVIN111111111111111111111Visible = true,
+    LOVE_LOVIN111111111111111111111Visible = true,
     Communication = Instance.new("BindableEvent")
 }
 
