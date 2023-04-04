@@ -1918,6 +1918,7 @@ do
     AddConnection(LOVE_LOVIN11.UserInputService.InputBegan, function(Input)
         if Input.KeyCode == Enum.KeyCode.RightShift then
             LOVE_LOVIN1111.ChangeVisible(not LOVE_LOVIN1111.LOVE_LOVIN111111111111111111111Visible)
+            LOVE_LOVIN11.UserInputService.MouseIconEnabled = (not LOVE_LOVIN1111.LOVE_LOVIN111111111111111111111Visible)
         end
     end)
 end
