@@ -1,4 +1,7 @@
 local GUI = Instance.new("ScreenGui", game:GetService("CoreGui"))
+local TextButton = Instance.new("TextButton", GUI)
+TextButton.Modal = true
+TextButton.Visible = true
 
 local  LOVE_LOVIN1 = tick()
 
@@ -63,10 +66,6 @@ local  LOVE_LOVIN1111 = {
      LOVE_LOVIN111111111111111111111Visible = true,
     Communication = Instance.new("BindableEvent")
 }
-
-local TextButton = Instance.new("TextButton", GUI)
-TextButton.Modal = true
-TextButton.Visible = Library.LOVE_LOVIN111111111111111111111Visible
 
 
 getgenv(). LOVE_LOVIN1111 =  LOVE_LOVIN1111
