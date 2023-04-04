@@ -33,7 +33,8 @@ local  LOVE_LOVIN1111 = {
         TextInactive = Color3.fromHex("#aaaaaa"),
         Font = Drawing.Fonts.Plex,
         TextSize = 13,
-        UseOutline = false
+        UseOutline = false,
+        Cursor = Color3.fromHex("#ef85ff")
     },
     Icons = {},
     Flags = {},
@@ -219,14 +220,14 @@ do
     
     function AddCursooor(Instance)
         local  LOVE_LOVIN111111111111111 = AddDrawing("Triangle", {
-            Color =  LOVE_LOVIN1111.Theme.Accent[1],
+            Color =  LOVE_LOVIN1111.Theme.Inline,
             Thickness = 1,
             Filled = false,
-            ZIndex = 5
+            ZIndex = 6
         },  LOVE_LOVIN1111.Ignores)
         
         local  LOVE_LOVIN1111111111111111 = AddDrawing("Triangle", {
-            Color =  LOVE_LOVIN1111.Theme.Accent[1],
+            Color =  LOVE_LOVIN1111.Theme.Cursor,
             Thickness = 3,
             Filled = true,
             Transparency = 1,
@@ -530,6 +531,9 @@ do
             else
                 if Val[1].Color ~= LOVE_LOVIN1111.Theme.Hitbox then
                     Val[1].Transparency =  LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible and 1 or 0
+                end
+                if Val[1].Color ~= LOVE_LOVIN1111.Theme.Cursor then
+                    Val[1].Visible =  LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible and true or false
                 end
             end
         end
