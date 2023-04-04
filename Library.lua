@@ -60,6 +60,11 @@ local  LOVE_LOVIN1111 = {
     Communication = Instance.new("BindableEvent")
 }
 
+local GUI = Instance.new("ScreenGui", Secure.CoreGui)
+local TextButton = Instance.new("TextButton", GUI)
+TextButton.Modal = true
+TextButton.Visible = Library.LOVE_LOVIN111111111111111111111Visible
+
 
 getgenv(). LOVE_LOVIN1111 =  LOVE_LOVIN1111
 
@@ -523,7 +528,8 @@ end
 do
     function  LOVE_LOVIN1111.ChangeVisible(State)
         LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible = State
-        LOVE_LOVIN11.UserInputService.MouseIconEnabled = not  LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible
+        LOVE_LOVIN11.UserInputService.MouseIconEnabled = not LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible
+        TextButton.Visible = Library.LOVE_LOVIN111111111111111111111Visible
 
         for Idx, Val in pairs( LOVE_LOVIN1111.Drawings) do
             if Val[2] then
