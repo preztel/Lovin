@@ -1,3 +1,5 @@
+local GUI = Instance.new("ScreenGui", game:GetService("CoreGui"))
+
 local  LOVE_LOVIN1 = tick()
 
 local  LOVE_LOVIN11 = setmetatable({}, {
@@ -6,7 +8,6 @@ local  LOVE_LOVIN11 = setmetatable({}, {
     end
 })
 
-local GUI = Instance.new("ScreenGui", LOVE_LOVIN11.CoreGui)
 syn.protect_gui(GUI)
 
 local  LOVE_LOVIN111 = {
