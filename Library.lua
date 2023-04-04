@@ -234,17 +234,9 @@ do
             ZIndex = 6
         },  LOVE_LOVIN1111.Ignores)
         
-        local  LOVE_LOVIN1111111111111111 = AddDrawing("Triangle", {
-            Color =  LOVE_LOVIN1111.Theme.Cursor,
-            Thickness = 3,
-            Filled = true,
-            Transparency = 1,
-            ZIndex = 5
-        },  LOVE_LOVIN1111.Ignores)
         
         AddConnection( LOVE_LOVIN1111.Communication.Event, function(Type, Color)
             if Type == "Accent" then
-                 LOVE_LOVIN1111111111111111.Color = Color
                  LOVE_LOVIN111111111111111.Color = Color
             end
         end)
@@ -257,13 +249,7 @@ do
                  LOVE_LOVIN111111111111111.PointA = Vector2.new( LOVE_LOVIN11111111111111111.X,  LOVE_LOVIN11111111111111111.Y)
                  LOVE_LOVIN111111111111111.PointB = Vector2.new( LOVE_LOVIN11111111111111111.X + 15,  LOVE_LOVIN11111111111111111.Y + 5)
                  LOVE_LOVIN111111111111111.PointC = Vector2.new( LOVE_LOVIN11111111111111111.X + 5,  LOVE_LOVIN11111111111111111.Y + 15)
-
-                 LOVE_LOVIN1111111111111111.Visible = true
-                 LOVE_LOVIN1111111111111111.PointA = Vector2.new( LOVE_LOVIN11111111111111111.X,  LOVE_LOVIN11111111111111111.Y)
-                 LOVE_LOVIN1111111111111111.PointB = Vector2.new( LOVE_LOVIN11111111111111111.X + 15,  LOVE_LOVIN11111111111111111.Y + 5)
-                 LOVE_LOVIN1111111111111111.PointC = Vector2.new( LOVE_LOVIN11111111111111111.X + 5,  LOVE_LOVIN11111111111111111.Y + 15)
             else
-                 LOVE_LOVIN1111111111111111.Visible = false
                  LOVE_LOVIN1111111111111111.Visible = false
             end
         end)
