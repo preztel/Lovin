@@ -163,8 +163,6 @@ do
         else
             Location[#Location + 1] = { LOVE_LOVIN111111111111}
         end
-
-        print(Location)
         
         return  LOVE_LOVIN111111111111
     end
