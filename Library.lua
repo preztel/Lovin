@@ -532,7 +532,7 @@ do
     function  LOVE_LOVIN1111.ChangeVisible(State)
         LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible = State
         LOVE_LOVIN11.UserInputService.MouseIconEnabled = not LOVE_LOVIN1111. LOVE_LOVIN111111111111111111111Visible
-        TextButton.Visible = Library.LOVE_LOVIN111111111111111111111Visible
+        TextButton.Visible = LOVE_LOVIN1111.LOVE_LOVIN111111111111111111111Visible
 
         for Idx, Val in pairs( LOVE_LOVIN1111.Drawings) do
             if Val[2] then
